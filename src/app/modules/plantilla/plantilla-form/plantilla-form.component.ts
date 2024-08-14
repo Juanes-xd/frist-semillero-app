@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
-import { FormGroup, ReactiveFormsModule, FormControl } from '@angular/forms';
+import {
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  ReactiveFormsModule,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-plantilla-form',
   standalone: true,
-  imports: [],
+  imports: [ReactiveFormsModule],
   templateUrl: './plantilla-form.component.html',
   styleUrl: './plantilla-form.component.css',
 })

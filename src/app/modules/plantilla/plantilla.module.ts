@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PlantillaFormComponent } from './plantilla-form/plantilla-form.component';
+import { PlantillaRoutingModule } from '../plantilla-routing.module';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, PlantillaFormComponent],
+  imports: [CommonModule, PlantillaRoutingModule],
 })
 export class PlantillaModule {}
